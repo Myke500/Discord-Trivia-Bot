@@ -1,14 +1,14 @@
-# Category 0 - Science
+# Category 0 - x42 General
 ---
 questions:
-- question: What is the force of gravity on the moon?
+- question: What is the cost to generate a side chain on x42?
   difficulty: medium
-  correct_answer: About one sixth of earth's
+  correct_answer: 1 x42
   incorrect_answers:
-  - About one half of earth's
-  - About one eighth of earth's
-  - About the same
-- question: Buzz Aldrin was the first man to step on the moon.
+  - 1,000 x42
+  - 20,000 x42
+  - 0 x42
+- question: 
   difficulty: medium
   correct_answer: 'False'
   incorrect_answers:
