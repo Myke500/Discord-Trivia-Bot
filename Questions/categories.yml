@@ -3,8 +3,10 @@
 ---
 trivia_categories:
 - id: 0
-  name: Science
+  name: x42 General
 - id: 1
-  name: Video Games
+  name: x42 Wallet
 - id: 2
-  name: Music
+  name: x42 Web
+- id: 3
+  name: x42 Masternodes
