@@ -8,6 +8,7 @@ questions:
   - 1,000 x42
   - 20,000 x42
   - 0 x42
+  
 - question: 
   difficulty: medium
   correct_answer: 'False'
@@ -33,7 +34,6 @@ questions:
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
-
 
 - question: x42 uses Proof of Work to mint new coins
   difficulty: Easy
