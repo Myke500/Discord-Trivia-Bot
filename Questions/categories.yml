@@ -4,9 +4,5 @@
 trivia_categories:
 - id: 0
   name: x42 General
-- id: 1
-  name: x42 Wallet
-- id: 2
-  name: x42 Web
-- id: 3
-  name: x42 Masternodes
+# - id: 1
+# name: x42 Wallet
