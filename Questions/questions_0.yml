@@ -13,3 +13,156 @@ questions:
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
+
+- question: x42 has zero fees forever.
+  difficulty: Easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: What date did the x42 Protocol project launch?
+  difficulty: medium
+  correct_answer: Aug 1, 2018
+  incorrect_answers:
+  - Jan 1, 2019
+  - Feb 11, 2018 (42nd day of the year)
+  - 12/25/18 
+
+- question: x42 is a Bitcoin fork
+  difficulty: Easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+
+- question: x42 uses Proof of Work to mint new coins
+  difficulty: Easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: x42 is based on what existing crypto projects technology?
+  difficulty: medium
+  correct_answer: Stratis
+  incorrect_answers:
+  - Ethereum
+  - Crypto Kitties
+  - Ripple
+
+- question: Who is the CEO of the x42 Protocol project?
+  difficulty: Easy
+  correct_answer: Gabriel
+  incorrect_answers:
+  - Satoshi Nakamoto
+  - Steve Jobs
+  - Charles Hoskinson
+
+- question: The x42 block reward is 20 x42 coins until all 42 million coins are minted.
+  difficulty: Easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: The max supply for x42 is 42 million coins.
+  difficulty: Easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question:  What programming language can be used to build Dapps and smart-contracts on the x42 platform? 
+  difficulty: Hard
+  correct_answer: Any
+  incorrect_answers:
+  - C++
+  - Spanish
+  - C#
+
+- question:  At what block does the stake reward move to 5 x42? 
+  difficulty: Medium
+  correct_answer: 550,001
+  incorrect_answers:
+  - 42,000,000
+  - 550,000
+  - 1
+
+- question:  What animal is the x42 "mascot"? 
+  difficulty: Medium
+  correct_answer: goat
+  incorrect_answers:
+  - Dog
+  - Jackalope 
+  - Alien
+
+- question: The tier 3 masternode will be able stake.
+  difficulty: Medium
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: Their was a lengthy ICO that established funding for x42.
+  difficulty: Easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question:  What is the x42 website address? 
+  difficulty: Easy
+  correct_answer: x42.tech
+  incorrect_answers:
+  - goat.x42.cloud
+  - x42.io
+  - x42protocol.com
+
+- question:  Where did the "42" in x42 come from? 
+  difficulty: Medium
+  correct_answer: Douglas Adams' "The Hitchhiker's Guide to the Galaxy"
+  incorrect_answers:
+  - The max supply of 42 million coins
+  - The age of Gabriel when he started the project
+  - A reversal of the constricting nature of the 24-hour day
+
+- question:  The block after which no additional x42 coins are generated? 
+  difficulty: Hard
+  correct_answer: 4,652,092
+  incorrect_answers:
+  - 1,000,000
+  - 42,000,000
+  - 8,125,241
+
+- question:  What is the number of coins that must be locked up to run a tier 2 masternode? 
+  difficulty: Easy
+  correct_answer: 20,000
+  incorrect_answers:
+  - 1,000
+  - 10,000
+  - 100,000
+
+- question:  What planet did Dennis originally come from? 
+  difficulty: Hard
+  correct_answer: p3x-888
+  incorrect_answers:
+  - Trondheim
+  - Lusitania
+  - Albion
+
+- question:  What event does the launch of x42 correspond with? 
+  difficulty: Hard
+  correct_answer: The Slavery Abolition Act, signed Aug 1, 1833
+  incorrect_answers:
+  - Dennis' birthday
+  - National Pizza Day
+  - The anniversary of the start of Bitcoin
+
+- question: The reputation system will allow users, hosts, and developers to be rated.
+  difficulty: Easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question:  Users will be able to access, purchase, and download apps from this on the x42 platform? 
+  difficulty: Medium
+  correct_answer: Blockchain Application Store
+  incorrect_answers:
+  - Dapp Store
+  - The Google Play Store
+  - Your local internet service provider
