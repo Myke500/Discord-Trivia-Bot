@@ -6,17 +6,18 @@ questions:
   correct_answer: 1 x42
   incorrect_answers:
   - 1,000 x42
-  - 20,000 x42
   - 0 x42
+  - 20,000 x42
+
   
-- question: 
+- question: All x42 masternodes can stake
   difficulty: medium
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
 
 - question: x42 has zero fees forever.
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'True'
   incorrect_answers:
   - 'False'
@@ -25,18 +26,18 @@ questions:
   difficulty: medium
   correct_answer: Aug 1, 2018
   incorrect_answers:
-  - Jan 1, 2019
+  - April 1, 2018
   - Feb 11, 2018 (42nd day of the year)
-  - 12/25/18 
+  - By the end of March 2019 
 
 - question: x42 is a Bitcoin fork
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
 
 - question: x42 uses Proof of Work to mint new coins
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
@@ -50,7 +51,7 @@ questions:
   - Ripple
 
 - question: Who is the CEO of the x42 Protocol project?
-  difficulty: Easy
+  difficulty: easy
   correct_answer: Gabriel
   incorrect_answers:
   - Satoshi Nakamoto
@@ -58,27 +59,27 @@ questions:
   - Charles Hoskinson
 
 - question: The x42 block reward is 20 x42 coins until all 42 million coins are minted.
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
 
 - question: The max supply for x42 is 42 million coins.
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'True'
   incorrect_answers:
   - 'False'
 
 - question:  What programming language can be used to build Dapps and smart-contracts on the x42 platform? 
-  difficulty: Hard
+  difficulty: hard
   correct_answer: Any
   incorrect_answers:
   - C++
-  - Spanish
+  - C+
   - C#
 
 - question:  At what block does the stake reward move to 5 x42? 
-  difficulty: Medium
+  difficulty: medium
   correct_answer: 550,001
   incorrect_answers:
   - 42,000,000
@@ -86,7 +87,7 @@ questions:
   - 1
 
 - question:  What animal is the x42 "mascot"? 
-  difficulty: Medium
+  difficulty: medium
   correct_answer: goat
   incorrect_answers:
   - Dog
@@ -94,19 +95,19 @@ questions:
   - Alien
 
 - question: The tier 3 masternode will be able stake.
-  difficulty: Medium
+  difficulty: medium
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
 
 - question: Their was a lengthy ICO that established funding for x42.
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'False'
   incorrect_answers:
   - 'True'
 
 - question:  What is the x42 website address? 
-  difficulty: Easy
+  difficulty: easy
   correct_answer: x42.tech
   incorrect_answers:
   - goat.x42.cloud
@@ -114,7 +115,7 @@ questions:
   - x42protocol.com
 
 - question:  Where did the "42" in x42 come from? 
-  difficulty: Medium
+  difficulty: medium
   correct_answer: Douglas Adams' "The Hitchhiker's Guide to the Galaxy"
   incorrect_answers:
   - The max supply of 42 million coins
@@ -122,7 +123,7 @@ questions:
   - A reversal of the constricting nature of the 24-hour day
 
 - question:  The block after which no additional x42 coins are generated? 
-  difficulty: Hard
+  difficulty: hard
   correct_answer: 4,652,092
   incorrect_answers:
   - 1,000,000
@@ -130,7 +131,7 @@ questions:
   - 8,125,241
 
 - question:  What is the number of coins that must be locked up to run a tier 2 masternode? 
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 20,000
   incorrect_answers:
   - 1,000
@@ -138,7 +139,7 @@ questions:
   - 100,000
 
 - question:  What planet did Dennis originally come from? 
-  difficulty: Hard
+  difficulty: hard
   correct_answer: p3x-888
   incorrect_answers:
   - Trondheim
@@ -146,7 +147,7 @@ questions:
   - Albion
 
 - question:  What event does the launch of x42 correspond with? 
-  difficulty: Hard
+  difficulty: hard
   correct_answer: The Slavery Abolition Act, signed Aug 1, 1833
   incorrect_answers:
   - Dennis' birthday
@@ -154,15 +155,227 @@ questions:
   - The anniversary of the start of Bitcoin
 
 - question: The reputation system will allow users, hosts, and developers to be rated.
-  difficulty: Easy
+  difficulty: easy
   correct_answer: 'True'
   incorrect_answers:
   - 'False'
 
 - question:  Users will be able to access, purchase, and download apps from this on the x42 platform? 
-  difficulty: Medium
+  difficulty: medium
   correct_answer: Blockchain Application Store
   incorrect_answers:
   - Dapp Store
   - The Google Play Store
   - Your local internet service provider
+
+- question:  What tier of masternode was initally planned, but later scrapped? 
+  difficulty: hard
+  correct_answer: Tier 4
+  incorrect_answers:
+  - Tier 42
+  - Tier 3
+  - Tiers of our enemies
+
+- question:  What does the Tumblebit mechanism provide in tier 3 masternodes? 
+  difficulty: hard
+  correct_answer: Privacy
+  incorrect_answers:
+  - Food
+  - Staking
+  - Instant Transactions
+
+- question: Tier 3 masternodes are soley responsible for processing "instant Transactions"
+  difficulty: easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question:  How many coins are allocated from the Pre-mine towards Strategic Partnerships? 
+  difficulty: hard
+  correct_answer: 2,800,000
+  incorrect_answers:
+  - 42,000,000
+  - none
+  - 1,000,000
+
+- question: The Tier 3 masternode will be the last to be released.
+  difficulty: medium
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: The Tier 2 masternode will be responsible for running the Reputation System.
+  difficulty: medium
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: The Whitepaper is currently available in Italian.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question:  What program sometimes continues to run in the background even after closing the wallet? 
+  difficulty: medium
+  correct_answer: x42.x42D
+  incorrect_answers:
+  - Candy Crush
+  - My other wallets
+  - x42.tech
+
+- question:  Masternodes will be released in the following order
+  difficulty: easy
+  correct_answer: T1, T3, T2
+  incorrect_answers:
+  - T1, T2, T3
+  - T3, T2, T1
+  - T2, T3, T1
+
+- question: The x42 development team is currently working on fully implementing private transaction.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: Side blockchains will scale as much as your team needs.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: Via a reputation system you will be seen as the talented individual you are.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: An auction house for said contracts, allowing users and developers to buy and sell running contracts.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: x42 is listed on what number of exchanges?
+  difficulty: easy
+  correct_answer: 6
+  incorrect_answers:
+  - 3
+  - 5
+  - 4
+
+- question: x42 can be mined using Proof of Work (PoW)
+  difficulty: easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: The whitepaper is available in French?
+  difficulty: easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: How many coins are required for a Tier 1 Masternode?
+  difficulty: easy
+  correct_answer: 1,000 x42
+  incorrect_answers:
+  - 1 x42
+  - 10,000 x42
+  - 100,000 x42
+
+- question: How many coins are required for a  Tier 2 Masternode?
+  difficulty: easy
+  correct_answer: 20,000 x42
+  incorrect_answers:
+  - 2,000 x42
+  - 200,000 x42
+  - 2 x42
+
+- question: The current wallet version is v0.1.16 or newer.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: What port number needs to be opened to become a seed node?
+  difficulty: medium
+  correct_answer: 52342
+  incorrect_answers:
+  - 51342
+  - 5242
+  - 54242
+
+- question: What is the maximum number of connections you may see in the wallet with the 52342 port closed?
+  difficulty: easy
+  correct_answer: 16
+  incorrect_answers:
+  - 12
+  - 10
+  - 14
+
+- question: How many blocks does it take for a transaction to become spendable?
+  difficulty: easy
+  correct_answer: 50 Blocks
+  incorrect_answers:
+  - 500 Blocks
+  - 5 Blocks
+  - Instantly Available
+
+- question: How many blocks does it take for a transaction to mature for staking?
+  difficulty: easy
+  correct_answer: 500 Blocks
+  incorrect_answers:
+  - 50 Blocks
+  - 5 Blocks
+  - Instantly Available
+
+- question: After restoring the wallet and syncing, your balance shows "0.00000000" what happened?
+  difficulty: medium
+  correct_answer: Either the secret words or passphrase was incorrect.
+  incorrect_answers:
+  - Either the secret words or passphrase and password were incorrect.
+  - Either the secret words or password was incorrect.
+  - Either the date or password was incorrect.
+
+- question: The wallet password can be change by restoring the wallet.
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+- question: The x42 Full Node includes all of these features
+  difficulty: hard
+  correct_answer: Transaction History, Addressbook, Staking, Public Keys
+  incorrect_answers:
+  - Transaction History, Rescan Function, Cold Staking
+  - Transaction History, Transaction Details, dApps, SideChains
+  - Transaction History, Staking, Masternodes, Coin Mixing
+
+- question: The "Expected reward time " is always exact
+  difficulty: easy
+  correct_answer: 'False'
+  incorrect_answers:
+  - 'True'
+
+- question: The "Expected reward time " is
+  difficulty: easy
+  correct_answer: an estimate
+  incorrect_answers:
+  - the exact time it will take to recieve a reward
+  - a countdown timer until the next reward
+  - too long, I need more coins to stake
+  
+  - question: The x42 #🏆-ai̇rdrop is still live
+  difficulty: easy
+  correct_answer: 'True'
+  incorrect_answers:
+  - 'False'
+
+  - question: What does a peers file do?
+  difficulty: medium
+  correct_answer: Records of the most recently connected and banned nodes addresses 
+  incorrect_answers:
+  - Needed to get a connection to the x42 network
+  - Provides a full list of nodes on the x42 network
+  - Gives external nodes connection information about this node
