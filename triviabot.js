@@ -871,9 +871,6 @@ Trivia.doGame = async function(id, channel, author, scheduled, config, category,
   // ## Permission Checks ##
   // Start with the game value if defined, otherwise default to 0.
   var gameMode = 0;
-  if(typeof game[id] !== "undefined") {
-    gameMode = game[id].gameMode || gameMode;
-  }
 
   if(channel.type !== "dm" && typeof modeInput === "undefined") {
     if(getConfigVal("use-reactions", channel)) {
@@ -895,6 +892,10 @@ Trivia.doGame = async function(id, channel, author, scheduled, config, category,
     typeInput = "multiple"; // Override to get rid of T/F questions
   }
 
+  if(typeof game[id] !== "undefined") {
+    gameMode = game[id].gameMode || gameMode;
+  }
+  
   var isFirstQuestion = typeof game[id] === "undefined";
 
   // ## Game ##
@@ -1172,7 +1173,7 @@ function parseCommand(msg, cmd) {
   var id = msg.channel.id;
 
   var isAdmin;
-  if(((msg.member !== null && msg.member.permissions.has("MANAGE_GUILD")) || msg.channel.type === "dm") && getConfigVal("disable-admin-commands", msg.channel) !== true) {
+  if(((msg.member !== null && msg.member.permissions.has("MANAGE_GUILD")) || msg.channel.type === "dm" || getConfigVal("command-whitelist", msg.channel).length > 0) && getConfigVal("disable-admin-commands", msg.channel) !== true) {
     isAdmin = true;
   }
 
@@ -1561,8 +1562,9 @@ Trivia.reactionAdd = function(reaction, user) {
       return; // The reaction isn't a letter, ignore it.
     }
 
-    // Get the user's nickname.
-    var username = reaction.message.guild.members.get(user.id).displayName;
+    // Get the user's guild nickname, or regular name if in a DM.
+    var msg = reaction.message;
+    var username = msg.guild !== null?msg.guild.members.get(user.id).displayName:user.username;
     Trivia.parseAnswer(str, id, user.id, username, getConfigVal("score-value", reaction.message.channel));
   }
 };
