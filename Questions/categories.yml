@@ -3,6 +3,8 @@
 ---
 trivia_categories:
 - id: 0
-  name: x42 General
+  name: Generic Sample
 # - id: 1
-# name: x42 Wallet
+# name: Not Used Yet
+- id: 42
+  name: x42 General Questions
