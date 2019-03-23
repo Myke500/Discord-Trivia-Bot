@@ -1,7 +1,7 @@
 {
   "name": "discord-trivia-bot",
-  "version": "1.6.500",
-  "description": "A trivia bot for Discord powered by discord.js and OpenTDB. Categories include x42 (x42.tech).",
+  "version": "1.6.2.500",
+  "description": "A trivia bot for Discord powered by discord.js and OpenTDB. Categories include Film, Television, Anime & Manga, Sports, Science & Nature, and more.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Myke500/x42-Trivia-Bot.git"
+    "url": "git+https://github.com/LakeYS/Discord-Trivia-Bot.git"
   },
   "author": "Lake Y",
   "license": "Apache-2.0",
@@ -23,7 +23,7 @@
     "discord.js": "^11.4.2",
     "html-entities": "^1.2.1",
     "https": "^1.0.0",
-    "js-yaml": "^3.12.1",
+    "js-yaml": "^3.12.2",
     "semver-compare": "^1.0.0",
     "snekfetch": "^3.6.4"
   }
